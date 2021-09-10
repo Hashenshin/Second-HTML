@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+
+    <h1>Formulario de registro</h1>
+
+    <form action="php/conexion.php" method="POST">
+
+        Text: <input type="text" name="Nombre">        
+        Pass: <input type="password" name="contra">
+        <br>
+        <br>
+        Sexo: <input type="radio" name="boton1" value="1" class="sex"> Hombre
+        <input type="radio" name="boton1" value="2" class="sex"> Mujer
+        <br>
+        <br>
+        Vehiculo: <input type="checkbox" value="1" name="auto" checked>Auto
+        <input type="checkbox" value="2" name="moto">Moto
+
+        <br>
+        <br>
+        <input type="submit" value="Registrar">
+        <input type="reset" value="Resetear">
+
+
+    </form>
+    
+</body>
+</html>
